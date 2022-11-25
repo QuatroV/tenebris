@@ -14,16 +14,16 @@ const App: Component = () => {
           </h1>
 
           <div class="flex flex-col items-center gap-1">
-            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer before:absolute before:-ml-7 hover:before:content-['⮞'] after:absolute after:ml-1 hover:after:content-['⮜'] hover:scale-105 transition-all active:text-yellow-600">
+            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer hover:scale-125 transition-all active:text-yellow-600">
               Proelium
             </span>
-            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer before:absolute before:-ml-7 hover:before:content-['⮞'] after:absolute after:ml-1 hover:after:content-['⮜'] hover:scale-105 transition-all active:text-yellow-600">
+            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer hover:scale-125 transition-all active:text-yellow-600">
               Creatio
             </span>
-            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer before:absolute before:-ml-7 hover:before:content-['⮞'] after:absolute after:ml-1 hover:after:content-['⮜'] hover:scale-105 transition-all active:text-yellow-600">
+            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer hover:scale-125 transition-all active:text-yellow-600">
               Monstrorum Liber
             </span>
-            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer before:absolute before:-ml-7 hover:before:content-['⮞'] after:absolute after:ml-1 hover:after:content-['⮜'] hover:scale-105 transition-all active:text-yellow-600">
+            <span class="text-yellow-500 text-2xl font-GothicPixels  cursor-pointer hover:scale-125 transition-all active:text-yellow-600">
               Tabernam
             </span>
           </div>
