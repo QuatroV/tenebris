@@ -1,8 +1,11 @@
 {
   "name": "vite-template-solid",
   "version": "0.0.0",
+  "homepage": "https://QuatroV/tenebris",
   "description": "",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
