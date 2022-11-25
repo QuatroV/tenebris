@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "GothicPixels";
+    src: url('./assets/GothicPixels.ttf') format('truetype');
+  }
+}
+
+.main-menu-bg {
+    background: linear-gradient(270deg, #500076, #3b0076, #160076, #070076, #160076, #2b0076, #360076, #5a0076);
+    background-size: 3400% 3400%;
+
+    -webkit-animation: BackgroundMoving 80s ease infinite;
+    -moz-animation: BackgroundMoving 80s ease infinite;
+    animation: BackgroundMoving 80s ease infinite;
+}
+
+@-webkit-keyframes BackgroundMoving {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes BackgroundMoving {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes BackgroundMoving {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
